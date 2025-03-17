@@ -1,0 +1,4 @@
+podman run -it \
+  -v "/home/artisan/penguins-pod/chroot-dir:/" \
+  -v "/home/artisan/penguins-pod/home-dir:/home" \
+  localhost/debian:debian12
